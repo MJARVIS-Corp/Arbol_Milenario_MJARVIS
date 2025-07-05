@@ -1,0 +1,15 @@
+{
+  "problema_id": "SAT001",
+  "descripcion": "Contradicción lógica entre condiciones simbólicas",
+  "modulo_usado": "MJARVIS_SAT_Inferencial.py",
+  "resultado": "Contradicción detectada",
+  "razonamiento": [
+    "Si A es verdadero y B es falso, entonces C no puede ser verdadero.",
+    "Valores actuales: A=True, B=False, C=True",
+    "C contradice el enunciado estructural."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "Lógica simbólica restaurada, trayectoria explicable registrada.",
+  "trayectoria_registrada_en": "../Resultados/resultado_inferencia_sat.ciar",
+  "estado": "Resuelto"
+}

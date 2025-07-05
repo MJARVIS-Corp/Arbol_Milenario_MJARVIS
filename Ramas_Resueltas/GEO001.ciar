@@ -1,0 +1,14 @@
+{
+  "problema_id": "GEO001",
+  "descripcion": "Diagnóstico ético de regiones económicas con riesgo computacional",
+  "modulo_usado": "MJARVIS_Analisis_Semantico_Geoeconomico.py",
+  "resultado": "Alertas detectadas en Amazonía Central",
+  "razonamiento": [
+    "Inflación en Amazonía Central supera el umbral ético computacional.",
+    "La región posee agua pero está en zona de riesgo alto: posible conflicto de sostenibilidad."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "Identificación de zonas en conflicto ético. Registro trazable para intervención futura.",
+  "trayectoria_registrada_en": "../Resultados/resultado_analisis_geoeconomico.ciar",
+  "estado": "Resuelto"
+}
