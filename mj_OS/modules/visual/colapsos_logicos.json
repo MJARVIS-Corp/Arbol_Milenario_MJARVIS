@@ -1,0 +1,8 @@
+[
+  {
+    "token": "mj_sig_Q7",
+    "causa": "Ambigüedad en inferencia hash",
+    "variables": ["hash_A", "hash_B"],
+    "timestamp": "2025-07-08T12:10:42Z"
+  }
+]

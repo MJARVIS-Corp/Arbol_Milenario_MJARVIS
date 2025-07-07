@@ -1,0 +1,8 @@
+{
+  "variables": ["X", "Y", "Z", "A"],
+  "restricciones": [
+    ["¬X", "Y", "Z"],      // Si X ⇒ (Y ∨ Z)
+    ["¬Z", "A", "Y"],      // Si Z ⇒ (A ∨ Y)
+    ["¬A", "Z", "¬Y"]      // Si no A ⇒ (no Y ∨ Z)
+  ]
+}

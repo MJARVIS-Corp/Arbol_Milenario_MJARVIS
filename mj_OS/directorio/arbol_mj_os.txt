@@ -1,0 +1,48 @@
+/mj_os/
+├── /core/
+│   ├── init.sys                  → Boot principal con modo simétrico activado
+│   ├── seed_logic.rms           → Reglas fundamentales (RIMAS 001–041)
+│   ├── qbit.genome              → Configuración base del qbit estructural
+│   └── pulse.sync               → Reloj operativo de latido interno
+│
+├── /modules/
+│   ├── /rubrik/
+│   │   └── rotate_r3x3.mjs      → Algoritmos mágicos reversibles de rotación cúbica
+│   ├── /cryptinfer/
+│   │   ├── derive.symkey        → Inferencia de claves por simetría
+│   │   └── trace.block.sh       → Análisis de bloques inferenciales
+│   ├── /fractal_io/
+│   │   └── io_nest.map          → Mapeo I/O modular y anidado
+│   └── /magic_bitfield/
+│       └── bitmask.truth        → Plantillas booleanas mágicas
+│
+├── /interface/
+│   ├── /copilot/
+│   │   └── sync.sig             → Enlace simbiótico con Copilot
+│   ├── /console/
+│   │   ├── mjsh.rc              → Configuración inicial del shell
+│   │   └── events.log           → Registro del sistema en tiempo real
+│   └── /alerts/
+│       └── hook_reader.sh       → Script de alerta por lectura externa
+│
+├── /mem/
+│   ├── /ideas/
+│   │   └── MIL.log              → Registro de Ideas Locas con timestamps
+│   ├── /tasks/
+│   │   └── todo.stack           → Tareas lógicas pendientes a comitear
+│   ├── /mathbook/
+│   │   ├── estructura.md        → Índice del libro + capítulos RIMAS
+│   │   └── libro_compilado.pdf  → Versión exportada (por compilar)
+│   └── /articles/
+│       ├── acceso.log           → Bitácora de lecturas
+│       └── entrada.sig          → Hashes únicos de lectores identificados
+│
+├── /bin/
+│   ├── mjsh                    → Shell interactivo mágico
+│   ├── qbitctl                 → Utilidad de control qbit-cluster
+│   └── restore_face            → Restauración de caras en matriz de cubitos
+│
+├── /proc/
+│   └── boot.seq                → Script de secuencia de arranque y carga de módulos
+│
+└── MJARVIS_MANIFEST.md        → Documento fundador y descripción operativa

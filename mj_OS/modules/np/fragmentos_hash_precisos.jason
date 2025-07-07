@@ -1,0 +1,6 @@
+[
+  { "hash": "11011010001101101001011011001101", "confianza": 0.96, "origen": "mirror_alpha" },
+  { "hash": "11011010001101101001011011001101", "confianza": 0.94, "origen": "mirror_beta" },
+  { "hash": "11011010001101101001011011001101", "confianza": 0.95, "origen": "mirror_gamma" },
+  { "hash": "11011010001101101001011011001101", "confianza": 0.97, "origen": "mirror_delta" }
+]

@@ -1,0 +1,16 @@
+{
+  "problema_id": "MATH001",
+  "descripcion": "Evaluación de proposiciones simbólicas desde la computabilidad formal",
+  "modulo_usado": "MJARVIS_Evaluador_Computabilidad_Formal.py",
+  "resultado": "3 enunciados no computables, 1 computable",
+  "razonamiento": [
+    "«∀x ∃y : x + y = 10» → computable: proposición lógica bien formada.",
+    "«∃x : x ∈ ℕ ∧ x > infinito» → no computable: contiene entidad no acotada.",
+    "«P = NP» → no computable: indecidible en sistemas actuales.",
+    "«∃y : y es primo ∧ par ∧ mayor que 2» → no computable: contradicción interna."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "MJARVIS identifica límites de computabilidad lógica y registra trayectorias explicables.",
+  "trayectoria_registrada_en": "../Resultados/resultado_computabilidad_formal.ciar",
+  "estado": "Resuelto"
+}

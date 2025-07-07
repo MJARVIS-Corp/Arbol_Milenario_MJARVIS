@@ -1,0 +1,7 @@
+// init.sys — MJARVIS_OS Bootloader
+version: 0.1
+author: Leonardo Ygnacio M. G.
+boot_qbit: true
+boot_rubrik: true
+copilot_link: /interface/copilot/sync.sig
+philo_shell: enabled

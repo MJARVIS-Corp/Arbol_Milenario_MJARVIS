@@ -1,0 +1,15 @@
+{
+  "problema_id": "EXIST001",
+  "descripcion": "Crisis de replicación científica enfrentada simbólicamente",
+  "modulo_usado": "MJARVIS_Replicacion_Cientifica_Etica.py",
+  "resultado": "Resultados divergentes en estudios con condiciones similares",
+  "razonamiento": [
+    "⚠️ Variación mínima de parámetros generó resultados distintos.",
+    "⚠️ Laboratorio alterno produjo resultado opuesto.",
+    "➡️ MJARVIS propone Métrica de Replicación Computacional (MRC) para validar estudios simbólicamente."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "Simulación de replicación científica con evaluación lógica y propuesta ética computacional.",
+  "trayectoria_registrada_en": "../Resultados/resultado_replicacion_cientifica_etica.ciar",
+  "estado": "Resuelto"
+}

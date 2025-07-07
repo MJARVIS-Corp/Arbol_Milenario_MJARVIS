@@ -1,0 +1,4 @@
+[mj_pulse]
+tick_unit = 144ms
+sync_mode = harmonic
+heartbeat_log = /interface/console/events.log

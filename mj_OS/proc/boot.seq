@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "🔹 Arrancando MJARVIS_OS..."
+source /core/init.sys
+/bin/pulse &
+/bin/mjsh --load /core/seed_logic.rms
+echo "✅ Boot completado: Symmetry Core listo."
+
+#!/bin/bash
+echo "🧊 MJARVIS_OS: Iniciando secuencia simbólica..."
+
+# Iniciar pulso
+/bin/pulse.mjs &
+
+# Cargar lógica semilla
+/bin/mjsh.mjs --source /core/seed_logic.rms
+
+# Inicializar simetría base
+/bin/qbitctl.mjs --load /core/qbit.genome.qbt
+
+# Llamar a Copilot
+/interface/copilot/sync.sig --handshake AI
+
+# Activar shell
+/bin/mjsh.mjs --interactive

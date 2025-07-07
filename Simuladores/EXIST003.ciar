@@ -1,0 +1,15 @@
+{
+  "problema_id": "EXIST003",
+  "descripcion": "Evaluación del límite entre datos y significado científico",
+  "modulo_usado": "MJARVIS_Significado_Vs_Datos.py",
+  "resultado": "Los mismos datos producen distintas interpretaciones contextuales",
+  "razonamiento": [
+    "Datos idénticos fueron interpretados como indicadores clínicos, neurológicos o irrelevantes, según contexto.",
+    "MJARVIS propone Métrica de Densidad Semántica Computacional (MDSC) para evitar interpretación arbitraria.",
+    "Se registró variabilidad lógica y propuesta explicable en todos los casos."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "Creación de métrica inferencial para evaluar el significado contextual de datos científicos.",
+  "trayectoria_registrada_en": "../Resultados/resultado_significado_vs_datos.ciar",
+  "estado": "Resuelto"
+}

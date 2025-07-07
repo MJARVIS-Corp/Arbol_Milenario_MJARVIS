@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ACM-JV1",
+    "condición": "validar_sintagma",
+    "recurso": "4 ciclos SHA",
+    "recompensa": "1 acceso extendido",
+    "penalización": "retraso simbólico 2c"
+  },
+  {
+    "id": "ACM-JV2",
+    "condición": "desplegar_bloque",
+    "recurso": "lectura fonosemántica",
+    "recompensa": "elevación contexto"
+  }
+]

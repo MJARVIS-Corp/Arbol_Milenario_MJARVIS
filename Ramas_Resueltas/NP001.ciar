@@ -1,0 +1,15 @@
+{
+  "problema_id": "NP001",
+  "descripcion": "Resolución de problema NP-completo — Subset Sum",
+  "modulo_usado": "MJARVIS_SubsetSum_SAT_Resolver.py",
+  "resultado": "Subconjunto encontrado que suma 9",
+  "razonamiento": [
+    "Problema transformado en instancia SAT simbólica.",
+    "Subconjunto válido: [4, 5]",
+    "Verificado por CIAR como resolución legítima."
+  ],
+  "validado_por_ciar": true,
+  "impacto_computacional": "MJARVIS enfrenta problema NP-completo con razonamiento lógico estructurado.",
+  "trayectoria_registrada_en": "../Resultados/resultado_subset_sum_sat.ciar",
+  "estado": "Resuelto"
+}

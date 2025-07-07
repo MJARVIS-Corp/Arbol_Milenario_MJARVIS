@@ -1,0 +1,8 @@
+{
+  "variables": ["A", "B", "C"],
+  "restricciones": [
+    ["¬A", "B", "C"],
+    ["A", "¬B", "C"],
+    ["A", "B", "¬C"]
+  ]
+}

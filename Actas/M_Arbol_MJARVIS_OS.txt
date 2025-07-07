@@ -1,0 +1,22 @@
+/mj_os/
+├── /core/
+│   ├── init.sys
+│   ├── seed_logic.rms
+│   ├── qbit.genome
+│   └── pulse.sync
+├── /modules/
+│   ├── rubrik/
+│   ├── cryptinfer/
+│   └── fractal_io/
+├── /interface/
+│   ├── copilot/
+│   ├── console/
+│   └── alerts/
+├── /mem/
+│   ├── ideas/
+│   ├── tasks/
+│   ├── mathbook/
+│   └── articles/
+├── /bin/
+│   ├── mjsh
+│   └── qbitctl
